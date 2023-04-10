@@ -1,0 +1,15 @@
+{
+  "name": "alen-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm --prefix tasks run lint && npm --prefix users run lint && npm --prefix gateway run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
